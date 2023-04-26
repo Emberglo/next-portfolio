@@ -12,7 +12,7 @@ export default function Home() {
       <h1 className='my-2 text-3xl'>Hi! I&#39;m Ryan.</h1>
       <h2 className='my-2 text-xl'>Software Developer</h2>
       <p className='my-2 w-3/4'>I am a software developer based in Boise, Idaho. I have experience working on the front and back end of websites and applications in multiple tech stacks. My favorite work to do is build beautiful and functional front ends that make big impacts on businesses and users. This site is built with NextJS and TailwindCSS, and I have experience in Angular, PHP, C#, and others.</p>
-      <p className='my-2 text-xl'>Contact me on socials:</p>
+      <p className='my-4 text-xl'>Check out my work and contact me here:</p>
       <div className='flex flex-row'>
         <button className='bg-transparent hover:bg-[#a86225] text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent rounded mx-2 w-[95px]'>
           <Link href='https://github.com/Emberglo' target='_blank'>

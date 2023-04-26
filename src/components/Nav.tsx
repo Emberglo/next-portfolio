@@ -21,8 +21,6 @@ const projects = [
   { name: 'Marine Maintenance Application', description: 'Get a better understanding of your traffic', href: '#', icon: WrenchIcon },
   { name: 'Supply Chain Application Suite', description: 'Speak directly to your customers', href: '#', icon: TruckIcon },
   { name: 'Consulting Company Website', description: 'Your customers’ data will be safe and secure', href: '#', icon: ComputerDesktopIcon },
-//   { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
-//   { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },
 ]
 // const callsToAction = [
 //   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
@@ -39,10 +37,10 @@ const Nav = () => {
     <header className="bg-dark text-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Ryan Carpenter - Software Developer</span>
             <Image src={Logo} alt='stooping falcon logo' width='60' height='60' />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -106,7 +104,7 @@ const Nav = () => {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-white">
+          <a href="/resume" className="text-sm font-semibold leading-6 text-white">
             Resume
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-white">
@@ -126,10 +124,10 @@ const Nav = () => {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Ryan Carpenter - Software Developer</span>
               <Image src={Logo} alt='stooping falcon logo' width='60' height='60' />
-            </a>
+            </Link>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -186,7 +184,7 @@ const Nav = () => {
                   Consulting Company Website
                 </a>
                 <a
-                  href="#"
+                  href="/resume"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Resume
