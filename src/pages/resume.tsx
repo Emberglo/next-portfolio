@@ -7,11 +7,11 @@ const resume = () => {
     <div className='w-full my-2 flex flex-col items-center'>
       <h1 className='text-3xl'>Resume</h1>
       <p className='w-5/6 my-6'>A passionate software developer with a track record of delivering enterprise-level full stack applications, collaborating with a team to achieve and surpass goals, and crafting visually stunning and intuitive user interfaces.</p>
-      <h2 className='text-2xl'>Work Experience</h2>
+      <h2 className='text-2xl mt-6'>Work Experience</h2>
       {jobs.map((job: job) => (
         <Job job={job} key={job.id} />
       ))}
-      <h2 className='text-2xl'>Skills</h2>
+      <h2 className='text-2xl my-6'>Skills</h2>
       <div className='w-5/6 flex flex-row justify-around my-6'>
          <ul>
             <li>
@@ -65,7 +65,7 @@ const resume = () => {
             </li>
          </ul>
       </div>
-      <h2 className='text-2xl'>Education</h2>
+      <h2 className='text-2xl my-6'>Education</h2>
       <div className='w-5/6 my-6'>
         <div className='flex justify-between text-xl'>
             <Link href='https://boisecodeworks.com/' target='_blank'>CodeWorks</Link>

@@ -4,12 +4,7 @@ import Logo from '../../public/logo.png';
 import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import {
-  ArrowPathIcon,
   Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
   XMarkIcon,
   TruckIcon,
   WrenchIcon,
@@ -107,18 +102,13 @@ const Nav = () => {
           <a href="/resume" className="text-sm font-semibold leading-6 text-white">
             Resume
           </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-white">
+          <a href="/about" className="text-sm font-semibold leading-6 text-white">
             About
           </a>
           {/* <a href="#" className="text-sm font-semibold leading-6 text-white">
             Company
           </a> */}
         </Popover.Group>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </a>
-        </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-10" />
@@ -190,7 +180,7 @@ const Nav = () => {
                   Resume
                 </a>
                 <a
-                  href="#"
+                  href="/about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   About
