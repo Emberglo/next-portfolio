@@ -13,9 +13,9 @@ import {
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
 const projects = [
-  { name: 'Marine Maintenance Application', description: 'Get a better understanding of your traffic', href: '#', icon: WrenchIcon },
-  { name: 'Supply Chain Application Suite', description: 'Speak directly to your customers', href: '#', icon: TruckIcon },
-  { name: 'Consulting Company Website', description: 'Your customers’ data will be safe and secure', href: '#', icon: ComputerDesktopIcon },
+  { name: 'Marine Maintenance Application', description: 'Get a better understanding of your traffic', href: '/marine', icon: WrenchIcon },
+  { name: 'Supply Chain Application Suite', description: 'Speak directly to your customers', href: '/supply', icon: TruckIcon },
+  { name: 'Consulting Company Website', description: 'Your customers’ data will be safe and secure', href: '/consulting', icon: ComputerDesktopIcon },
 ]
 // const callsToAction = [
 //   { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
@@ -156,19 +156,19 @@ const Nav = () => {
                   )}
                 </Disclosure>
                 <a
-                  href="#"
+                  href="/marine"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Marine Maintenance Application
                 </a>
                 <a
-                  href="#"
+                  href="/supply"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Supply Chain Application Suite
                 </a>
                 <a
-                  href="#"
+                  href="/consulting"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Consulting Company Website
