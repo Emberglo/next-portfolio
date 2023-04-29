@@ -1,6 +1,6 @@
 const consulting = () => {
   return (
-    <div>
+    <div className='w-full full-height flex flex-col items-center'>
       <h1>Consulting company website</h1>
     </div>
   )
