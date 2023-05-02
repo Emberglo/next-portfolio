@@ -6,11 +6,11 @@ const Layout = ({children}: {children: any}) => {
     <>
       <Meta />
       <Nav />
-      <div>
+      <>
         <main>
           {children}
         </main>
-      </div>
+      </>
     </>
   )
 }
