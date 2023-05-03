@@ -5,10 +5,13 @@ const supply = () => {
       <div className='flex flex-col items-center w-5/6 my-6'>
         <h2 className='text-xl'>Project Description</h2>
         <p className='py-3'>
-          This application is a one stop shop for everyone from recreational boaters to large government regulated fleets to track maintenance and increase reliablity. The application allows users to generate work orders, track parts inventory, set reminders for recurring maintenance, keep records of maintenance done to individual vessels and individual components on the vessel, and increase speed and ease of inspections.
+            This project involved updating an interconnected suite of applications for an international supply chain company. These applications enable the shipping and distribution teams to manage the movement of inventory into, out of, and between warehouses.
         </p>
         <p className='py-3'>
-        The legacy application was contracted for modernization and upgrades. The team upgraded the user interface, added new functionality, as well as integrated a new React application to further increase value to users. These upgrades resulted in a surge of new users to the platform.
+            The main portion of the project was upgrading and expanding a mobile application used by truck drivers on delivery routes. This included updating the versions of Angular and Ionic that were used in the app, completely revamping the UI to be responsive to device sizes and make the app more user friendly. We also expanded the capablities of the app to be used for scanning product, insuring orders are accurately delivered, taking and uploading photos, and filing of reports. 
+        </p>
+        <p className='py-3'>
+            The rest of the project involved work with three additional web apps. The upgrades to these apps make it easier for warehouse managers to track deliveries, be alerted of any issues in real time, and make it easier to view and access important data. 
         </p>
       </div>
       <div className='flex flex-col items-center w-5/6 my-6'>

@@ -9,6 +9,7 @@ const marine = () => {
         </p>
         <p className='py-3'>
         The legacy application was contracted for modernization and upgrades. The team upgraded the user interface, added new functionality, as well as integrated a new React application to further increase value to users. These upgrades resulted in a surge of new users to the platform.
+          This was a legacy application that was contracted for UI and functionality improvements. The UI was completely updated to a modern and responsive interface. Dashboards were added to provide users a quick and easy way to view critical information that was previously scattered and difficult to find. 
         </p>
       </div>
       <div className='flex flex-col items-center w-5/6 my-6'>

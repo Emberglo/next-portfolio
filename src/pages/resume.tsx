@@ -81,7 +81,7 @@ const resume = () => {
 
 const jobs = [
     {
-        title: 'Software Engineer',
+        title: 'Software Developer',
         company: 'MadeLabs',
         dates: '2/2021 - 9/2023',
         bullet1: 'Independent Contractor',
