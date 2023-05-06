@@ -16,6 +16,7 @@ const supply = () => {
       </div>
       <div className='flex flex-col items-center w-5/6 my-6'>
         <h2 className='text-xl'>Technologies Used</h2>
+        <p>This project was built with Ionic, Angular, C#, .Net, and Microsoft SQL Server.</p>
       </div>
     </div>
   )

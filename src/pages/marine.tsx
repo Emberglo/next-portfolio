@@ -13,6 +13,7 @@ const marine = () => {
       </div>
       <div className='flex flex-col items-center w-5/6 my-6'>
         <h2 className='text-xl'>Technologies Used</h2>
+        <p>This project was primarily a PHP applicaiton. A React application was added later that used GraphQL. </p>
       </div>
     </div>
   )
