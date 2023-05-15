@@ -10,7 +10,7 @@ const consulting = () => {
       </div>
       <div className='flex flex-col items-center w-5/6 my-6'>
         <h2 className='text-xl'>Technologies Used</h2>
-        <p>This project was a React application. It also had an integration of Wordpress for the job postings page to enable applicant tracking and other metrics tracking and SEO optimization.</p>
+        <p>This project was a React application. It also had an integration of Wordpress for the job postings page to enable applicant tracking, other metrics tracking, and SEO optimization.</p>
       </div>
     </div>
   )
